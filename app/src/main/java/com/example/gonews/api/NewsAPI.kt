@@ -1,6 +1,6 @@
 package com.example.gonews.api
 
-import com.example.gonews.NewsResponse
+import com.example.gonews.models.NewsResponse
 import com.example.gonews.util.Constants
 import retrofit2.Response
 import retrofit2.http.GET

@@ -1,4 +1,4 @@
-package com.example.gonews
+package com.example.gonews.models
 
 data class Source(
     val id: String,
