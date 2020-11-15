@@ -25,7 +25,6 @@ class ArticleFragment : Fragment(R.layout.fragment_article){
             loadUrl(article.url)
         }
 
-
         floating_action_button.setOnClickListener {
             viewModel.saveArticle(article)
             Snackbar.make(view, "Article saved successfully", Snackbar.LENGTH_SHORT).show()
